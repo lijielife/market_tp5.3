@@ -1,0 +1,120 @@
+<div id="pageajax">
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    首页
+                </li>
+
+                <li>
+                    模拟资金
+                </li>
+            </ul><!-- .breadcrumb -->
+        <!--<form action="__MODULE__/Index/select"  enctype="multipart/form-data" method="post">
+            <div style="position: absolute;top: 2px;margin-left:200px;line-height: 24px;color: #555;">
+                    开始时间：<input name="start" id="start" type="text" onClick="WdatePicker({startDate:'%y-%M-%d 00:00:00',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:true,position:{left:187,top:-31},firstDayOfWeek:1,autoPickDate:true})"/>
+                    结束时间：<input name="end" id="end" type="text" onClick="WdatePicker({startDate:'%y-%M-%d 23:59:59',dateFmt:'yyyy-MM-dd HH:mm:ss',alwaysUseStartDate:true,position:{left:187,top:-31},firstDayOfWeek:1,autoPickDate:true})"/>
+                    <a href="<{:U('Index/select')}>"><button class="btn btn-sm btn-primary no-border">查询</button></a>
+            </div>
+        </form>
+        <div style="position: absolute;top: 3px;margin-left:765px;line-height: 24px;">-->
+            <!--<form action="__MODULE__/Index/excel"  enctype="multipart/form-data" method="post">-->
+                <!--<input type="hidden" name="timeStart" value="<{$timeStart}>">-->
+                <!--<input type="hidden" name="timeEnd" value="<{$timeEnd}>">-->
+                <!--<a href="<{:U('Index/excel')}>"><button class="btn btn-sm btn-primary no-border">导出客户</button></a>-->
+            <!--</form>-->
+        <!--</div>-->
+
+        <div class="nav-search" id="nav-search"  style="top: 3px;">
+            <a href="<{:U('Capital/addshow')}>"><button class="btn btn-sm btn-primary no-border">开户</button></a>
+
+        </div><!-- #nav-search -->
+    </div>
+
+    <div class="page-content">
+
+
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- PAGE CONTENT BEGINS -->
+
+                <form action="__MODULE__/Capital/alldel"  enctype="multipart/form-data" method="post">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="table-header">
+
+                        </div>
+
+                        <div class="table-responsive">
+                            <table  id="sample-table-2" class="table table-striped table-bordered table-hover">
+                                <thead>
+                                <tr>
+                                    <th class="center" style="width: 50px;"><input type="checkbox" id="delt" name="delt"  value="delt" ></th>
+                                    <th class="center" style="width: 100px;">用户ID</th>
+                                    <!--<th>用户名</th>-->
+                                    <th style="width: 150px;">初始资产</th>
+                                    <th style="width: 150px;">总资产</th>
+                                    <th style="width: 150px;" class="hidden-480">总盈亏</th>
+                                    <th style="width: 150px;">可用保证金</th>
+                                    <th style="width: 150px;">占用保证金</th>
+                                    <th style="width: 150px;">冻结保证金</th>
+                                    <th style="width: 150px;"><i class="icon-time bigger-110 hidden-480"></i>最后加金时间</th>
+                                    <th style="width: 100px;">操作</th>
+                                </tr>
+                                </thead>
+
+                                <tbody>
+                                <volist id="vo" name="list">
+                                <tr>
+                                    <td class="center"><input type="checkbox" value="<{$vo.uid}>" name="id[]"></td>
+                                    <td class="center"><{$vo.uid}></td>
+                                    <!--<td><a href="<{:U('Capital/edit',array('id'=>$vo['uid']))}>"><{$vo.username}></a></td>-->
+                                    <td><{$vo.initial_capital}></td>
+                                    <td><{$vo.total_capital}></td>
+                                    <td><{$vo.total_profit_loss}></td>
+                                    <td><{$vo.usable_margin}></td>
+                                    <td><{$vo.uccupy_margin}></td>
+                                    <td><{$vo.freeze_margin}></td>
+                                    <td class="hidden-480"><{$vo.time|date="Y-m-d H:i:s",###}></td>
+                                    <td>
+                                        <div class="visible-md visible-lg hidden-sm hidden-xs action-buttons">
+                                            &nbsp;
+                                            <a title="编辑" class="green" href="<{:U('Capital/edit',array('id'=>$vo['uid']))}>">
+                                                <i class="icon-pencil bigger-130"></i>
+                                            </a>
+                                            <a id="id-btn-dialog20"  title="删除" class="red" href="<{:U('Capital/del',array('id'=>$vo['uid']))}>" onclick="return confirm('是否确认删除？');">
+                                                <i class="icon-trash bigger-130"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </volist>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                <a href="#" onclick="return confirm('是否确认删除？');"><button class="btn btn-sm btn-primary no-border">全部删除</button></a>
+                </div>
+
+                </form>
+                <!--class no-margin-top-->
+                <div class="modal-footer " style="text-align: left;margin-top: 10px;">
+                    <ul class="pagination  no-margin" style="width:100%;">
+                        <{$page}>
+                    </ul>
+                </div>
+
+
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.page-content -->
+</div><!-- /.main-content -->
+</div>

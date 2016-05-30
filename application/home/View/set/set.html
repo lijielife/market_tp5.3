@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>账号设置</title>
+    <style>
+        .main{
+            width: 460px;
+            height: 410px;
+            border:2px solid #949191;
+            background-color: #DAE5E7;
+        }
+        .div1{
+            width: 300px;
+            height: 40px;
+            border-bottom: 1px solid #c6c6c6;
+            float: right;
+            margin-right: 20px;
+        }
+        .div2{
+            width: 115px;
+            height: 345px;
+            float: left;
+            position: relative;
+            border-right: 1px solid #c6c6c6;
+            margin-top: 38px;
+        }
+        .div3{
+            width: 320px;
+            height: 145px;
+            float: right;
+            position: relative;
+            #border-left:1px solid #c6c6c6;
+        }
+        .div4{
+            margin-top: 15px;
+            width: 70px;
+            float: left;
+        }
+        .div5{
+            width: 300px;
+            height: 40px;
+            border-bottom: 1px solid #c6c6c6;
+            float: right;
+            margin-right: 20px;
+        }
+        .div6{
+            width: 320px;
+            height: 145px;
+            float: right;
+            position: relative;
+            #border-left:1px solid #949191;
+        }
+        .div7{
+            margin-top: 0px;;
+            width: 70px;
+            float: left;
+        }
+        .div8{
+            margin-left: 12px;
+        }
+        .div9{
+            margin-top: 15px;
+        }
+        .p1{
+            font-weight:bold;
+        }
+        .margin-top{
+            margin-top: 13px;;
+        }
+        input{
+            color: #949191;
+        }
+        input:focus
+        {
+            color:#000000;
+        }
+        .input-width{
+            width: 245px;
+            background-image: url('__ROOT__/Upload/images/default/lock.jpg');
+            BACKGROUND-REPEAT: no-repeat;padding-left:25px;
+        }
+        .input-height{
+            height: 20px;
+        }
+        #upload{
+            background: rgba(60, 63, 65, 0.50);
+        }
+        .font-color{
+            color: #949191;
+        }
+        .sure{
+            margin-left: 173px;
+            width: 100px;
+            height: 30px;
+        }
+        #upload1{
+            background-color:#FDFDFE;
+            width: 250px;
+            height: 125px;
+            text-align: left;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        a{
+            text-decoration:none;
+            color: #008000;
+        }
+        #username{
+            width: 140px;
+        }
+        #email{
+            width: 140px;
+        }
+        #result{
+            float: left;
+            margin-top: 15px;
+        }
+        #mainajax{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+
+<div class="main">
+
+        <div class="div1">
+            <div class="div4">
+                <div class="p1" style="float: left;">基本资料</div>
+            </div>
+            <div class="div9">
+                <div id="mainajax"> </div>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="div8"><img width="90px" height="90px" src="__ROOT__/Upload<{$image}>"></div>
+            <div class="div9">
+                <button style="margin-left: 22px" onclick="display()">修改头像</button>
+
+            </div>
+            <div id="upload" style="position:absolute; z-index:999; top:-36px;display:none;width: 460px;margin-left: 0px;height: 405px;">
+                <div id="upload1">
+                <form action="__URL__/upload" enctype="multipart/form-data" method="post" >
+                    <div><input style="margin-top: 25px;margin-left: 35px;" class="upload" type="file" name="photo" /></div>
+
+                        <input style="margin-top: 30px;margin-left: 40px;color: #000000;" class="upload" type="submit" value="提交" >
+                        <input type="hidden" id="ckUid" value="<{$ckUid}>" name="ckUid" />
+                        <input type="hidden" id="token" value="<{$token}>" name="token" />
+                </form>
+                        <button style="margin-top: -21px;margin-left: 150px;position: absolute;" onclick="noDisplay()">取消</button>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="div3">
+            <div class="margin-top"><span class="font-color">等&nbsp;&nbsp;级：</span><span><{$level}></span></div>
+            <div class="margin-top"><span class="font-color">模拟交易ID：</span><span><{$simulate_id}></span></div>
+            <div class="margin-top"><span class="font-color">昵&nbsp;&nbsp;称：</span><input id="username" type="text" value="<{$username}>" name="username"><a href="#"  ><span onclick="username('Set/username')">&nbsp;确认</span></a> </div>
+            <div class="margin-top"><span class="font-color">邮&nbsp;&nbsp;箱：</span><input id="email" type="text" value="<{$email}>" name="email"><a href="#"><span onclick="email('Set/email')">&nbsp;确认</span></a></div>
+        </div>
+        <div class="div5">
+            <div class="div7"><p class="p1">修改密码</p></div>
+            <div id="result"></div>
+        </div>
+
+
+    <div class="div6">
+        <div><input charset="utf-8" id="pwd" class="input-width margin-top input-height" type="text" name="pwd" onfocus="if (value =='请输入您的旧密码：'){value ='';type='password';}" onblur="if (value ==''){value='请输入您的旧密码：';type='text';}" value="请输入您的旧密码："></div>
+        <div><input id="newpwd" class="input-width margin-top input-height" type="text" name="newpwd" onfocus="if (value =='请输入您的新密码：'){value ='';type='password';}" onblur="if (value ==''){value='请输入您的新密码：';type='text';}" value="请输入您的新密码："></div>
+        <div><input id="renewpwd" class="input-width margin-top input-height" type="text" name="renewpwd" onfocus="if (value =='请再次输入您的新密码：'){value ='';type='password';}" onblur="if (value ==''){value='请再次输入您的新密码：';type='text';}" value="请再次输入您的新密码："></div>
+        <div >
+            <button  onclick="password('Set/password')" class="margin-top sure"><span>确定</span></button>
+        </div>
+    </div>
+</div>
+
+</body>
+<script charset="utf-8">
+
+    function display(){
+        var upload=document.getElementById("upload");
+        upload.style.display="inline";
+    }
+    function noDisplay(){
+        var upload=document.getElementById("upload");
+        upload.style.display="none";
+    }
+    function createAjax(){
+        var request=false;
+        //window对象中有XMLHttpRequest存在就是非IE，包括（IE7，IE8）
+        if(window.XMLHttpRequest){
+            request=new XMLHttpRequest();
+            if(request.overrideMimeType){
+                request.overrideMimeType("text/xml");
+            }
+            //window对象中有ActiveXObject属性存在就是IE
+        }else if(window.ActiveXObject){
+            var versions=['Microsoft.XMLHTTP', 'MSXML.XMLHTTP', 'Msxml2.XMLHTTP.7.0','Msxml2.XMLHTTP.6.0','Msxml2.XMLHTTP.5.0', 'Msxml2.XMLHTTP.4.0', 'MSXML2.XMLHTTP.3.0', 'MSXML2.XMLHTTP'];
+            for(var i=0; i<versions.length; i++){
+                try{
+                    request=new ActiveXObject(versions[i]);
+                    if(request){
+                        return request;
+                    }
+                }catch(e){
+                    request=false;
+                }
+            }
+        }
+        return request;
+    }
+    //注意： 要每次请求都要使用一个新的XMLHttpRequest
+    /*
+     如果使用get将数据传给服务器，则服务器就使用$_GET
+     就直接通过Url将数据传给服务器
+     使用POST时一定要使用	ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+     */
+    var ajax=null;
+
+    function username(left){
+        var helloobj=document.getElementById("mainajax");
+        var username=document.getElementById("username").value;
+        var ckUid=document.getElementById("ckUid").value;
+        var token=document.getElementById("token").value;
+        ajax=createAjax();
+        ajax.onreadystatechange=function(){
+            if(ajax.readyState==4){
+                if(ajax.status==200){
+                    var data=ajax.responseText;
+                    helloobj.innerHTML=data;
+                    setTimeout(function(){helloobj.innerHTML=''},3000);
+                }else{
+                    alert("页面请求失败");
+                }
+            }
+        }
+        ajax.open("get", "http://192.168.150.241/Home/"+left+"?"+"username="+username+"&ckUid="+ckUid+"&token="+token, true);
+        ajax.send("null");
+    }
+    function email(left){
+        var helloobj=document.getElementById("mainajax");
+        var email=document.getElementById("email").value;
+        var ckUid=document.getElementById("ckUid").value;
+        var token=document.getElementById("token").value;
+        ajax=createAjax();
+        ajax.onreadystatechange=function(){
+            if(ajax.readyState==4){
+                if(ajax.status==200){
+                    var data=ajax.responseText;
+                    helloobj.innerHTML=data;
+                    setTimeout(function(){helloobj.innerHTML=''},3000);
+                }else{
+                    alert("页面请求失败");
+                }
+            }
+        }
+        ajax.open("get", "http://192.168.150.241/Home/"+left+"?"+"email="+email+"&ckUid="+ckUid+"&token="+token, true);
+        ajax.send("null");
+    }
+    function password(left){
+        var helloobj=document.getElementById("result");
+        var pwd=document.getElementById("pwd").value;
+        var newpwd=document.getElementById("newpwd").value;
+        var renewpwd=document.getElementById("renewpwd").value;
+        var ckUid=document.getElementById("ckUid").value;
+        var token=document.getElementById("token").value;
+        if(pwd=='请输入您的旧密码：'){
+            pwd=0;
+        }
+        if(newpwd=='请输入您的新密码：'){
+            newpwd=1;
+        }
+        if(renewpwd=='请再次输入您的新密码：'){
+            renewpwd=2;
+        }
+        ajax=createAjax();
+        ajax.onreadystatechange=function(){
+            if(ajax.readyState==4){
+                if(ajax.status==200){
+                    var data=ajax.responseText;
+                    helloobj.innerHTML=data;
+                    setTimeout(function(){helloobj.innerHTML=''},3000);
+                }else{
+                    alert("页面请求失败");
+                }
+            }
+        }
+        ajax.open("get", "http://192.168.150.241/Home/"+left+"?"+"pwd="+pwd+"&newpwd="+newpwd+"&renewpwd="+renewpwd+"&ckUid="+ckUid+"&token="+token, true);
+        ajax.send("null");
+    }
+    /*function password()
+    {
+        $.ajax({
+            type:"GET",  //默认值: "GET")。请求方式 ("POST" 或 "GET")， 默认为 "GET"。
+            url:"http://192.168.150.241/Home/Set/password?pwd="+$('#pwd').val(),  //当前页地址。发送请求的地址。
+            contentType: "application/x-www-form-urlencoded; charset=utf-8",
+            data:"", //发送到服务器的数据。将自动转换为请求字符串格式。
+            dataType:"text",//预期服务器返回的数据类型。如果不指定，jQuery 将自动根据 HTTP 包 MIME 信息来智能判断
+
+            success:function(data){//请求成功后的回调函数。
+
+                document.getElementById("result").innerHTML=data;
+                setTimeout(function(){document.getElementById("result").innerHTML=''},3000);
+            },
+            async:true,   //true为异步请求，false为同步请求
+            error:function(){
+
+                alert("请求失败");
+            }
+        });
+    }*/
+</script>
+
+</html>

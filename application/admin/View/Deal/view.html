@@ -1,0 +1,112 @@
+<extend name="Public:base" />
+<block name="main">
+    <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    首页
+                </li>
+
+                <li>
+                    成交明细
+                </li>
+            </ul><!-- .breadcrumb -->
+
+            <div class="nav-search" id="nav-search" style="top: 3px;">
+                <a href="<{:U('Deal/index')}>"><button class="btn btn-sm btn-primary no-border">返回列表</button></a>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="table-header">
+                            </div>
+                            <div class="table-responsive">
+                                    <table id="sample-table-2" class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th>栏目</th>
+                                            <th>详情</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody style="font-family:'Microsoft YaHei';">
+                                        <tr>
+                                            <td><label style="height: 15px;">ID</label></td>
+                                            <td><label><{$data.id}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">用户ID</label></td>
+                                            <td><label><{$data.uid}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">商品名称</label></td>
+                                            <td><label><{$data.good_name}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">操作方向</label></td>
+                                            <td><label><{$data.direction}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">数量</label></td>
+                                            <td><label><{$data.number}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">指令</label></td>
+                                            <td><label><{$data.instruct}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">类型</label></td>
+                                            <td><label><{$data.type}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">占用保证金</label></td>
+                                            <td><label><{$data.uccupy}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">手续费</label></td>
+                                            <td><label><{$data.commission}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">延期费</label></td>
+                                            <td><label><{$data.overnight}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">单笔盈亏</label></td>
+                                            <td><label><{$data.loss}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">持仓单号</label></td>
+                                            <td><label><{$data.positions_number}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">成交单号</label></td>
+                                            <td><label><{$data.positions_bargain}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label style="height: 15px;">时间</label></td>
+                                            <td><label><{$data.time|date='Y-m-d H:i:s', ###}></label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <a href="<{:U('Deal/index')}>"><button class="btn btn-sm btn-primary no-border">返回列表</button></a>
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div><!-- /.main-content -->
+</block>

@@ -1,0 +1,1244 @@
+[ 2015-07-31T09:37:15+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T09:37:15+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:37:16+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:43:22+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:43:22+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:43:22+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:43:39+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T09:43:39+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:43:39+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:44:00+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:44:00+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:44:00+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:46:39+08:00 ] 192.168.150.22 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:46:39+08:00 ] 192.168.150.22 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T09:46:39+08:00 ] 192.168.150.22 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:09+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:09+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:09+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:13+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:14+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:00:14+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-31T10:00:18+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:18+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:18+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-31T10:00:30+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:00:30+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:00:31+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T10:01:38+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:01:38+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T10:01:39+08:00 ] 192.168.150.25 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:26:42+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:26:42+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:26:43+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:26:53+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-31T14:26:53+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:26:53+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:28:41+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:28:41+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-31T14:28:41+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:30:19+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:30:20+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:30:20+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:30:27+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:30:27+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-07-31T14:30:27+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-07-31T14:34:40+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:34:40+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:34:41+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:34:46+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:34:46+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:34:47+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:35:27+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:35:27+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:35:27+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:35:27+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:35:40+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:35:41+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:35:41+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:35:41+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:01+08:00 ] 192.168.150.127 /index.php/Mobile/Index/priceSell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `positions_number` = 22610074 LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_detail` SET `loss`='2874',`profit`='2908' WHERE `positions_number` = 22610074 [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1438272000 AND `time` <= 1438358400  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_user_count` (`time`,`uid`,`count`) VALUES ('1438324561','22600004','1') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:36:02+08:00 ] 192.168.150.127 /index.php/Mobile/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pip D:\webroot\market\Application\Mobile\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=78 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324562') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=79 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324562') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=91 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324562') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610091','手续费','1438324562','-104.256','102096.514','22610078') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_history_create` (`uid`,`time`,`good_name`,`direction`,`price`,`number`,`positions_number`) VALUES ('22600004','1438324562','现货白银','买','2896','3','22610079') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_detail` (`uccupy`,`uid`,`time`,`positions_number`,`type`,`good_name`,`commission`,`direction`,`positions_price`,`pip`,`number`) VALUES ('10425.6','22600004','1438324562','22610078','市价','现货白银','0.08','买','2896','1','3') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='102096.514',`total_profit_loss`='-9627.942',`usable_margin`='67395.094',`uccupy_margin`='31204.8' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`overnight`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1438324562','现货白银','买','2896','建仓','3','市价','10425.6','-104.256','','','22610078','22610079') [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1438272000 AND `time` <= 1438358400  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_count` SET `count`=count+1 WHERE ( id=6 ) [ RunTime:0.0000s ]
+
+[ 2015-07-31T14:36:02+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:02+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-31T14:36:02+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-31T14:36:02+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-07-31T14:36:02+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:03+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:19+08:00 ] 192.168.150.127 /index.php/Mobile/Index/sell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE ( positions_number=22610071 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=80 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324579') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=92 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324579') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610092','手续费','1438324579','-173.28','101923.234','22610071') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=93 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324579') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610093','平仓盈亏','1438324579','0','101923.234','22610071') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1438324579','现货白银','卖','2888','平仓','5','市价','17328','-173.28','0','22610071','22610080') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_history_detail` (`uid`,`positions_number`,`type`,`good_name`,`direction`,`positions_price`,`number`,`instruct`,`loss`,`charge`,`turnover_number`,`time`) VALUES ('22600004','22610071','市价','现货白银','卖','2888','5','平仓','0','-173.28','22610080','1438324579') [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610071 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101923.234',`total_profit_loss`='-9801.222',`usable_margin`='84549.814',`uccupy_margin`='13876.8' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1438272000 AND `time` <= 1438358400  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_count` SET `count`=count+1 WHERE ( id=6 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:20+08:00 ] 192.168.150.127 /index.php/Mobile/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pip D:\webroot\market\Application\Mobile\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=81 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324580') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=82 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324580') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=94 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324580') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610094','手续费','1438324580','-34.656','101888.578','22610081') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_history_create` (`uid`,`time`,`good_name`,`direction`,`price`,`number`,`positions_number`) VALUES ('22600004','1438324580','现货白银','卖','2888','1','22610082') [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_positions_detail` (`uccupy`,`uid`,`time`,`positions_number`,`type`,`good_name`,`commission`,`direction`,`positions_price`,`pip`,`number`) VALUES ('3465.6','22600004','1438324580','22610081','市价','现货白银','0.08','卖','2888','0','1') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101888.578',`total_profit_loss`='-9835.878',`usable_margin`='81049.558',`uccupy_margin`='17342.4' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`overnight`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1438324580','现货白银','卖','2888','建仓','1','市价','3465.6','-34.656','','','22610081','22610082') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1438272000 AND `time` <= 1438358400  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_count` SET `count`=count+1 WHERE ( id=6 ) [ RunTime:0.0000s ]
+
+[ 2015-07-31T14:36:21+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:23+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:23+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:23+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:23+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:23+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:33+08:00 ] 192.168.150.127 /index.php/Mobile/Index/sell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE ( positions_number=22610081 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=83 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324593') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=95 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324593') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610095','手续费','1438324593','-34.764','101853.814','22610081') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=96 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324593') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610096','平仓盈亏','1438324593','135','101988.814','22610081') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1438324593','现货白银','买','2897','平仓','1','市价','3465.6','-34.764','135','22610081','22610083') [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_history_detail` (`uid`,`positions_number`,`type`,`good_name`,`direction`,`positions_price`,`number`,`instruct`,`loss`,`charge`,`turnover_number`,`time`) VALUES ('22600004','22610081','市价','现货白银','买','2897','1','平仓','135','-34.764','22610083','1438324593') [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610081 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101988.814',`total_profit_loss`='-9735.642',`usable_margin`='84615.394',`uccupy_margin`='13876.8' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1438272000 AND `time` <= 1438358400  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_count` SET `count`=count+1 WHERE ( id=6 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:36+08:00 ] 192.168.150.127 /index.php/Mobile/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pip D:\webroot\market\Application\Mobile\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=84 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324596') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=85 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324596') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=97 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324596') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610097','手续费','1438324596','-34.764','101954.05','22610084') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_history_create` (`uid`,`time`,`good_name`,`direction`,`price`,`number`,`positions_number`) VALUES ('22600004','1438324596','现货白银','买','2897','1','22610085') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_detail` (`uccupy`,`uid`,`time`,`positions_number`,`type`,`good_name`,`commission`,`direction`,`positions_price`,`pip`,`number`) VALUES ('3476.4','22600004','1438324596','22610084','市价','现货白银','0.08','买','2897','1','1') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101954.05',`total_profit_loss`='-9770.406',`usable_margin`='81104.23',`uccupy_margin`='17353.2' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`overnight`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1438324596','现货白银','买','2897','建仓','1','市价','3476.4','-34.764','','','22610084','22610085') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1438272000 AND `time` <= 1438358400  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_count` SET `count`=count+1 WHERE ( id=6 ) [ RunTime:0.0000s ]
+
+[ 2015-07-31T14:36:36+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:36+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-31T14:36:36+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:37+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:36:39+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:39+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:53+08:00 ] 192.168.150.127 /index.php/Mobile/Index/sell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE ( positions_number=22610084 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=86 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324613') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=98 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324613') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610098','手续费','1438324613','-34.656','101919.394','22610084') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=99 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324613') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610099','平仓盈亏','1438324613','-135','101784.394','22610084') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1438324613','现货白银','卖','2888','平仓','1','市价','3476.4','-34.656','-135','22610084','22610086') [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_history_detail` (`uid`,`positions_number`,`type`,`good_name`,`direction`,`positions_price`,`number`,`instruct`,`loss`,`charge`,`turnover_number`,`time`) VALUES ('22600004','22610084','市价','现货白银','卖','2888','1','平仓','-135','-34.656','22610086','1438324613') [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610084 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101784.394',`total_profit_loss`='-9940.062',`usable_margin`='84410.974',`uccupy_margin`='13876.8' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1438272000 AND `time` <= 1438358400  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_count` SET `count`=count+1 WHERE ( id=6 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-31T14:36:54+08:00 ] 192.168.150.127 /index.php/Mobile/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pip D:\webroot\market\Application\Mobile\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=87 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324614') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=88 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1438324614') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=100 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438324614') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610100','手续费','1438324614','0','101784.394','22610087') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_history_create` (`uid`,`time`,`good_name`,`direction`,`price`,`number`,`positions_number`) VALUES ('22600004','1438324614','现货白银','卖','2888','0','22610088') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_detail` (`uccupy`,`uid`,`time`,`positions_number`,`type`,`good_name`,`commission`,`direction`,`positions_price`,`pip`,`number`) VALUES ('0','22600004','1438324614','22610087','市价','现货白银','0.08','卖','2888','1','0') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101784.394',`total_profit_loss`='-9940.062',`usable_margin`='84410.974',`uccupy_margin`='13876.8' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+
+[ 2015-07-31T14:36:55+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:36:55+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-31T14:36:55+08:00 ] 192.168.150.127 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

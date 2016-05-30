@@ -1,0 +1,541 @@
+[ 2015-09-17T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overnight
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_ip_allow` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_ip_allow` WHERE `ip` = '192.168.150.132' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-17T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overTime
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_ip_allow` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_ip_allow` WHERE `ip` = '192.168.150.132' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2015-09-17T14:56:33+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T15:01:02+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.5580s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T15:04:57+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T15:13:44+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-17T15:15:01+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-09-17T15:31:47+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T15:32:31+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T15:34:36+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T15:40:09+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T15:42:19+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T15:46:58+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-17T15:50:21+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-17T15:56:41+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:00:17+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:05:13+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:14:04+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:16:48+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T16:20:03+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:21:33+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:28:13+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:28:19+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0070s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1442419200 AND `time` <= 1442505600  ) AND `uid` = 22600008 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:28:33+08:00 ] 192.168.150.134 /desktop/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600008 )  [ RunTime:0.0000s ]
+
+[ 2015-09-17T16:29:33+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:29:33+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:29:34+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-17T16:29:46+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600008 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:30:16+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:30:57+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600008 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T16:31:04+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:31:42+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600008 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T16:33:05+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600008 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T18:09:23+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-17T18:09:33+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600008 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T18:29:27+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T18:36:16+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-17T18:37:59+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-17T18:45:05+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600008 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

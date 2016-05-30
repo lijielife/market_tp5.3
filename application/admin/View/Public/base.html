@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>后台管理系统</title>
+
+    <include file="Public/link-css" />
+</head>
+
+<body>
+<include file="Public:top" />
+<div class="main-container" id="main-container">
+    <script type="text/javascript">
+        try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+    </script>
+    <div class="main-container-inner">
+        <a class="menu-toggler" id="menu-toggler" href="#">
+            <span class="menu-text"></span>
+        </a>
+
+        <div><include file="Public:left" /></div>
+
+
+            <div style="margin-left:0px;"  id="mainajax"><block name="main"><include file="Index:main" /></block></div>
+
+    </div><!-- /.main-container-inner -->
+
+    <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+        <i class="icon-double-angle-up icon-only bigger-110"></i>
+    </a>
+
+</div><!-- /.main-container -->
+</body>
+<script type="text/javascript" src="__ROOT__/Public/ckeditor/ckeditor.js"></script>
+<!--<script type="text/javascript">CKEDITOR.replace( 'editor1', {allowedContent:true} );</script>-->
+<script>
+    function ckf(){
+        CKEDITOR.replace( 'editor1', {allowedContent:true} );
+    }
+</script>
+<include file="Public:link-js-table" />
+<script src="__JS__/ajax/ajax.js"></script>
+<script src="__ROOT__/Public/date/WdatePicker.js"></script>
+<script type="text/javascript">
+    var checkall=document.getElementsByName("id[]");
+     $('#delt').click(function(){
+         if(!this.checked){
+             for(var $i=0;$i<checkall.length;$i++){
+                     checkall[$i].checked=false;
+             }
+         }else{
+             for(var $i=0;$i<checkall.length;$i++){
+                     checkall[$i].checked=true;
+             }
+         }
+     });
+    $(document).ready(function(){
+        $(".flip").click(function(){
+            $(".panel").slideToggle("slow");
+        });
+    });
+    function display(id){
+        //$(".nodisplay"+id).slideToggle(1);
+        $(".nodisplay"+id).toggle(100);
+        //$(".nodisplay10").css('display','inline');
+
+    }
+</script>
+</html>

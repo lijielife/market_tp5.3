@@ -1,0 +1,1265 @@
+[ 2015-08-12T09:28:54+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:28:54+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T09:28:55+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:29:04+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-12T09:29:05+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T09:29:06+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:30:06+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T09:30:06+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:30:06+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 192 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T09:37:27+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:37:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:37:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:37:34+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:37:34+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:37:34+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 192 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:40:11+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:40:11+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T09:40:12+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:40:17+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:40:18+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:40:18+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 192 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:41:28+08:00 ] 192.168.150.116 /index.php/Mobile/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=117 ) [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1439343688') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=118 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1439343688') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=172 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1439343688') [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610172','手续费','1439343688','0','3700.8','22610117') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_history_create` (`uid`,`time`,`good_name`,`direction`,`price`,`number`,`positions_number`) VALUES ('22600004','1439343688','现货白银','卖','3052','0','22610118') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_detail` (`uccupy`,`uid`,`time`,`positions_number`,`type`,`good_name`,`commission`,`direction`,`positions_price`,`pip`,`number`) VALUES ('0','22600004','1439343688','22610117','市价','现货白银','0.08','卖','3052','1','0') [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='3700.8',`total_profit_loss`='-305.922',`usable_margin`='0',`uccupy_margin`='3700.8' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`overnight`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1439343688','现货白银','卖','3052','建仓','0','市价','0','0','','','22610117','22610118') [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 277 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Mobile\Controller\CommonController.class.php 第 278 行.
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_count` WHERE `uid` = 22600004 AND ( `time` >= 1439308800 AND `time` <= 1439395200  ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_user_count` (`time`,`uid`,`count`) VALUES ('1439343688','22600004','1') [ RunTime:0.0000s ]
+
+[ 2015-08-12T09:41:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:41:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 192 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T09:41:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:41:50+08:00 ] 192.168.150.116 /index.php/Mobile/Index/sell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE ( positions_number=22610117 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_positions_number` SET `uid`='22600004' WHERE ( positions_number=119 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_number` (`time`) VALUES ('1439343710') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=173 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1439343710') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610173','手续费','1439343710','0','3700.8','22610117') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=174 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1439343710') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610174','平仓盈亏','1439343710','0','3700.8','22610117') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_today_bargain` (`uid`,`time`,`good_name`,`direction`,`bargain_price`,`instruct`,`number`,`type`,`uccupy`,`commission`,`loss`,`positions_number`,`positions_bargain`) VALUES ('22600004','1439343710','现货白银','买','3059','平仓','0','市价','0','0','0','22610117','22610119') [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_history_detail` (`uid`,`positions_number`,`type`,`good_name`,`direction`,`positions_price`,`number`,`instruct`,`loss`,`charge`,`turnover_number`,`time`) VALUES ('22600004','22610117','市价','现货白银','买','3059','0','平仓','0','0','22610119','1439343710') [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610117 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='3700.8',`total_profit_loss`='-305.922',`usable_margin`='0',`uccupy_margin`='3700.8' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:41:55+08:00 ] 192.168.150.116 /index.php/Mobile/Index/sell
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE ( positions_number=22610117 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+
+[ 2015-08-12T09:41:58+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:41:58+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T09:41:58+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 192 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T10:05:12+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T10:05:12+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T10:05:12+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T10:05:25+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T10:05:25+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T10:05:25+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 192 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600004 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-12T10:05:31+08:00 ] 192.168.150.116 /index.php/Mobile/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+
+[ 2015-08-12T10:13:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: ckUid D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 13 行.
+NOTIC: [8] Undefined index: token D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 14 行.
+
+[ 2015-08-12T10:13:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: ckUid D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 95 行.
+NOTIC: [8] Undefined index: token D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 96 行.
+
+[ 2015-08-12T10:13:28+08:00 ] 192.168.150.116 /index.php/Mobile/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: ckUid D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 150 行.
+NOTIC: [8] Undefined index: token D:\webroot\market\Application\Mobile\Controller\CapitalController.class.php 第 151 行.
+
+[ 2015-08-12T14:17:35+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T14:19:27+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T14:20:59+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T14:44:30+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T14:45:31+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T14:48:52+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T14:49:47+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T14:50:49+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:15:38+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:15:45+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:16:43+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T15:16:49+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T15:16:51+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:16:51+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T15:16:52+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:16:52+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:16:52+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:16:53+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T15:16:54+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T15:58:01+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T16:20:59+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T16:21:07+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T16:58:50+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:01:20+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:02:31+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:03:31+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:04:00+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:04:19+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:04:38+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:17:10+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:18:33+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:18:57+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:03+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:04+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:06+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:08+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:09+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-12T17:19:11+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T17:19:12+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:19:15+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:19:17+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:19:19+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-08-12T17:21:58+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:22:20+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:22:24+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:23:13+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:23:21+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-12T17:23:24+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T17:45:46+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-08-12T17:53:45+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T18:03:21+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-08-12T18:13:08+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T18:16:13+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T18:17:20+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-08-12T18:18:21+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-12T18:29:58+08:00 ] 192.168.150.116 /Mobile/Android/version
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_mobile_version` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_mobile_version` ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

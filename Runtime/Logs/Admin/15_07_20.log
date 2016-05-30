@@ -1,0 +1,659 @@
+[ 2015-07-20T09:16:18+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T09:16:22+08:00 ] 192.168.150.10 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(Public:link-js.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T09:16:22+08:00 ] 192.168.150.10 /Admin/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T09:16:38+08:00 ] 192.168.150.10 /Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_admin_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `market_admin_user` WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `market_admin_user` SET `count`=count+1 WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0000s ]
+SQL: UPDATE `market_admin_user` SET `ip`='192.168.150.10',`time`='1437354998' WHERE `username` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T09:16:40+08:00 ] 192.168.150.10 /Admin/Capital/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_user_capital` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 60 行.
+NOTIC: [8] Undefined variable: active D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 143 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 194 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T09:30:29+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436146229 AND 1437355829  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 240 行.
+NOTIC: [8] Undefined index: email D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 242 行.
+NOTIC: [8] Undefined index: mobilephone D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 243 行.
+NOTIC: [8] Undefined index: level D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 244 行.
+NOTIC: [8] Undefined index: simulate_id D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 245 行.
+NOTIC: [8] Undefined index: create_time D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 246 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 250 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-07-20T09:30:30+08:00 ] 192.168.150.10 /Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_admin_user` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_admin_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_admin_user` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 140 行.
+NOTIC: [8] Undefined variable: active D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 143 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T09:30:33+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436146233 AND 1437355833  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 240 行.
+NOTIC: [8] Undefined index: email D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 242 行.
+NOTIC: [8] Undefined index: mobilephone D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 243 行.
+NOTIC: [8] Undefined index: level D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 244 行.
+NOTIC: [8] Undefined index: simulate_id D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 245 行.
+NOTIC: [8] Undefined index: create_time D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 246 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 250 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T09:39:59+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436146799 AND 1437356399  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 240 行.
+NOTIC: [8] Undefined index: email D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 242 行.
+NOTIC: [8] Undefined index: mobilephone D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 243 行.
+NOTIC: [8] Undefined index: level D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 244 行.
+NOTIC: [8] Undefined index: simulate_id D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 245 行.
+NOTIC: [8] Undefined index: create_time D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 246 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 250 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 253 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T09:40:19+08:00 ] 192.168.150.10 /Admin/Active/excel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436146819 AND 1437356419  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 146 行.
+
+[ 2015-07-20T10:11:58+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436148718 AND 1437358318  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 232 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T10:12:28+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436148748 AND 1437358348  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 232 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T10:12:39+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436148759 AND 1437358359  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 232 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T12:08:14+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_admin_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_admin_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436155694 AND 1437365294  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 232 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T12:08:22+08:00 ] 192.168.150.10 /Admin/Capital/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_user_capital` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 60 行.
+NOTIC: [8] Undefined variable: active D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 143 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 194 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T13:49:40+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_admin_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436161780 AND 1437371380  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 232 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T13:49:42+08:00 ] 192.168.150.10 /Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_admin_user` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_admin_user` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_admin_user` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 140 行.
+NOTIC: [8] Undefined variable: active D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 143 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T13:49:43+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436161783 AND 1437371383  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 232 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-07-20T15:46:45+08:00 ] 192.168.150.10 /Admin/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_admin_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_admin_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_admin_user` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_admin_user` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 140 行.
+NOTIC: [8] Undefined variable: active D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 143 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\b682812e058c4f7cab74d08ab9eabe11.php 第 194 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-07-20T15:50:40+08:00 ] 192.168.150.10 /Admin/Active/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_count` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_user_count` WHERE `time` BETWEEN 1436169040 AND 1437378640  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 22600004 D:\webroot\market\Application\Admin\Controller\ActiveController.class.php 第 25 行.
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 60 行.
+NOTIC: [8] Undefined variable: capital D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 140 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 194 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 232 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 238 行.
+NOTIC: [8] Undefined index: uid D:\webroot\market\Runtime\Cache\Admin\3c0d39ab558fc9e705f0c3fd2b53ed7a.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T15:54:21+08:00 ] 192.168.150.10 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Index
+
+[ 2015-07-20T15:56:41+08:00 ] 192.168.150.10 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_user_capital` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0000s ]
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2015-07-20T15:57:47+08:00 ] 192.168.150.10 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_user_capital` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 60 行.
+NOTIC: [8] Undefined variable: active D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 143 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 194 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-20T15:57:50+08:00 ] 192.168.150.10 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_user_capital` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` ORDER BY id desc LIMIT 0,25   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Application/Admin/View/Index/main.html): failed to open stream: No such file or directory D:\webroot\market\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 60 行.
+NOTIC: [8] Undefined variable: active D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 143 行.
+NOTIC: [8] Undefined variable: admin D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 146 行.
+NOTIC: [8] Undefined variable: timeStart D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 193 行.
+NOTIC: [8] Undefined variable: timeEnd D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 194 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+NOTIC: [8] Undefined index: username D:\webroot\market\Runtime\Cache\Admin\bd1add356aa3883bb93cb4d9e0cd802b.php 第 241 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,122 @@
+<extend name="Public:base" />
+<block name="main">
+<div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <i class="icon-home home-icon"></i>
+                首页
+            </li>
+
+            <li>
+                模拟资金
+            </li>
+        </ul><!-- .breadcrumb -->
+
+        <div class="nav-search" id="nav-search" style="top: 3px;">
+            <a href="<{:U('Capital/index')}>"><button class="btn btn-sm btn-primary no-border">返回列表</button></a>
+        </div><!-- #nav-search -->
+    </div>
+
+    <div class="page-content">
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- PAGE CONTENT BEGINS -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="table-header">
+
+                        </div>
+                        <div class="table-responsive">
+                            <volist id="vo" name="list">
+                                <table id="sample-table-2" class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th class="center" style="width: 200px;">栏目</th>
+                                        <th>详情</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody style="font-family:'Microsoft YaHei';">
+
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">用户名</label></td>
+                                                <td><label><{$vo.username}></label></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">初始资金</label></td>
+                                                <td><label><{$vo.initial_capital}></label></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">总资产</label></td>
+                                                <td><label><{$vo.total_capital}></label></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">总盈亏</label></td>
+                                                <td><label><{$vo.total_profit_loss}></label></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">可用保证金</label></td>
+                                                <td><label><{$vo.usable_margin}></label></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">占用保证金</label></td>
+                                                <td><label><{$vo.uccupy_margin}></label></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">冻结保证金</label></td>
+                                                <td><label><{$vo.freeze_margin}></label></td>
+                                            </tr>
+                                            <!--<tr>
+                                                <td class="center"><label style="height: 15px;">手机</label></td>
+                                                <td><input name="mobilephone" type="text" placeholder="手机" class="col-xs-10 col-sm-3" value="<{$vo.mobilephone}>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">邮箱</label></td>
+                                                <td><input name="email" type="text" placeholder="邮箱" class="col-xs-10 col-sm-3" value="<{$vo.email}>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">等级</label></td>
+                                                <td><input name="level" type="text" placeholder="等级" class="col-xs-10 col-sm-3" value="<{$vo.level}>"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label>模拟ID</label></td>
+                                                <td><label><{$vo.simulate_id}></label></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="center"><label style="height: 15px;">内容</label></td>
+                                                <td id="ckf" onclick="ckf()">
+                                                    <textarea placeholder="点击加载编辑器"  id="editor1" name="text"><{$vo.text}></textarea>
+                                                </td>
+                                            </tr>
+                                            <tr class="center">
+                                                <td><label style="height: 15px;">封面图片</label></td>
+                                                <td><input type="file" name="photo" /></td>
+                                            </tr>
+                                            <tr class="center">
+                                                <td style="line-height: 74px;">图片预览：</td>
+                                                <td style="text-align: left;"><img width="114px" height="74px;" src="__ROOT__/Up<{$vo.image}>" /></td>
+                                            </tr>
+                                            <input type="hidden" value="<{$vo.uid}>" name="id" />-->
+
+                                    <tr>
+                                        <td class="center"></td>
+                                        <td>
+                                            <a href="<{:U('Capital/addMoney',array('id'=>$vo['uid']))}>"><button style="float:right;margin-right:5%;" class="btn btn-sm btn-primary no-border">入金10万</button></a>
+                                            <a href="<{:U('Capital/subtractMoney',array('id'=>$vo['uid']))}>"><button style="float: right;margin-right: 7%;" class="btn btn-sm btn-primary no-border">减金10万</button></a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </volist>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.page-content -->
+</div><!-- /.main-content -->
+</block>

@@ -1,0 +1,61 @@
+[ 2015-08-06T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overnight
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `freeze_uccupy` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=121 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438805400') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610121','延期费','1438805400','0','101610.934','22610087') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101610.934',`total_profit_loss`='-10113.522',`usable_margin`='84237.514' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=122 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438805400') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610122','延期费','1438805400','-26.064','101584.87','22610078') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101584.87',`total_profit_loss`='-10139.586',`usable_margin`='84211.45' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600034 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600034' WHERE ( positions_number=123 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438805400') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600034','22610123','延期费','1438805400','-25.974','99662.338','22610076') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='99662.338',`total_profit_loss`='-337.662',`usable_margin`='89272.738' WHERE ( uid=22600034 ) [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=124 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1438805400') [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610124','延期费','1438805400','-8.628','101576.242','22610074') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='101576.242',`total_profit_loss`='-10148.214',`usable_margin`='84202.822' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-08-06T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overTime
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uccupy` IS NULL  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `uccupy` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

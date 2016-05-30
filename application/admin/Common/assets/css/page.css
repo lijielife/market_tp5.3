@@ -1,0 +1,39 @@
+.rows{
+    color: #2283C5;
+    background-color: #FAFAFA;
+    margin: 0px -1px 0px 0px;
+    text-decoration:none;
+    padding: 10px;
+
+}
+.current{
+    background-color: #6FAED9;
+    text-decoration:none;
+    color: #FFF;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+
+}
+.num{
+    padding: 10px;
+    text-decoration:none;
+
+}
+.next{
+    padding: 10px;
+    background-color: #6FAED9;
+    color: #FFF;
+    text-decoration:none;
+}
+.prev{
+    padding: 10px;
+    background-color: #6FAED9;
+    color: #FFF;
+    text-decoration:none;
+}
+.prev:hover{
+    text-decoration:none;
+}
+.next:hover{
+    text-decoration: none;
+}

@@ -1,0 +1,1259 @@
+[ 2015-09-24T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overnight
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_ip_allow` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `market_ip_allow` WHERE `ip` = '192.168.150.132' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-24T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overTime
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_ip_allow` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `market_ip_allow` WHERE `ip` = '192.168.150.132' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2015-09-24T14:53:57+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:53:57+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:53:57+08:00 ] 192.168.150.77 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0130s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:53:59+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:01+08:00 ] 192.168.150.77 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0130s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:04+08:00 ] 192.168.150.77 /desktop/addMargin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:AddMargin
+
+[ 2015-09-24T14:54:10+08:00 ] 192.168.150.77 /desktop/Capital/todayBargain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0180s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+SQL: SELECT * FROM `market_today_bargain` WHERE `uid` = 22600007 AND ( `time` >= 1443024000 AND `time` <= 1443110400  ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:54:10+08:00 ] 192.168.150.77 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0170s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:11+08:00 ] 192.168.150.77 /desktop/Capital/todayBargain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0220s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+SQL: SELECT * FROM `market_today_bargain` WHERE `uid` = 22600007 AND ( `time` >= 1443024000 AND `time` <= 1443110400  ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:12+08:00 ] 192.168.150.77 /desktop/Capital/historyCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_history_create` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:54:13+08:00 ] 192.168.150.77 /desktop/Capital/historyDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_history_detail` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:54:15+08:00 ] 192.168.150.77 /desktop/Capital/historyPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `market_history_price` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:16+08:00 ] 192.168.150.77 /desktop/Capital/positionsFlow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `market_positions_flow` WHERE `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:54:19+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:25+08:00 ] 192.168.150.77 /desktop/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\webroot\market\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 17 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\webroot\market\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 18 行.
+SQL: test.getCollection(tmp_AG1000) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: test.tmp_AG1000.find({}).sort({"quotetime":-1}).limit(1) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_history_create` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\IndexController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\IndexController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\IndexController.class.php 第 42 行.
+
+[ 2015-09-24T14:54:27+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:54:28+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:43+08:00 ] 192.168.150.77 /desktop/addMargin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载控制器:AddMargin
+
+[ 2015-09-24T14:54:54+08:00 ] 192.168.150.77 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0170s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:54:55+08:00 ] 192.168.150.77 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:55:04+08:00 ] 192.168.150.77 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 161 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-24T14:55:05+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:55:05+08:00 ] 192.168.150.77 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 161 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-24T14:55:06+08:00 ] 192.168.150.77 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:55:09+08:00 ] 192.168.150.77 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-24T14:55:10+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:55:11+08:00 ] 192.168.150.77 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 161 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:55:13+08:00 ] 192.168.150.77 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0130s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:55:13+08:00 ] 192.168.150.77 /desktop/Capital/todayBargain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0220s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+SQL: SELECT * FROM `market_today_bargain` WHERE `uid` = 22600007 AND ( `time` >= 1443024000 AND `time` <= 1443110400  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:55:15+08:00 ] 192.168.150.77 /desktop/Capital/historyDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `market_history_detail` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T14:55:15+08:00 ] 192.168.150.77 /desktop/Capital/historyPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_history_price` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:55:16+08:00 ] 192.168.150.77 /desktop/Capital/historyPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_history_price` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:55:17+08:00 ] 192.168.150.77 /desktop/Capital/positionsFlow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_positions_flow` WHERE `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T14:55:19+08:00 ] 192.168.150.77 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:39+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0180s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:47+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0140s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:48+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:49+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:49+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:53+08:00 ] 192.168.150.134 /desktop/addMargin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AddMargin
+
+[ 2015-09-24T16:19:55+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0150s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:56+08:00 ] 192.168.150.134 /desktop/Capital/historyPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `market_history_price` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:19:57+08:00 ] 192.168.150.134 /desktop/Capital/historyDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `market_history_detail` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:03+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:09+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:12+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:13+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:20+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:21+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 161 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T16:20:21+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T16:20:33+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T16:20:36+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-09-24T16:20:38+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:43+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:49+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:20:51+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 161 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:06+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-09-24T16:21:10+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:11+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:12+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:13+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:14+08:00 ] 192.168.150.134 /desktop/Capital/totalPositions
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '卖' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 161 行.
+SQL: SELECT * FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `direction` = '买' AND `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 182 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:26+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:26+08:00 ] 192.168.150.134 /desktop/Capital/positionsDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uid` = 22600007 AND `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:28+08:00 ] 192.168.150.134 /desktop/Capital/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600007 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 36 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 37 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 38 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 39 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 40 行.
+NOTIC: [8] Undefined offset: 0 D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 41 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:33+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0100s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:35+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:37+08:00 ] 192.168.150.134 /desktop/Capital/positionsFlow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `market_positions_flow` WHERE `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:42+08:00 ] 192.168.150.134 /desktop/Capital/positionsFlow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_positions_flow` WHERE `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:43+08:00 ] 192.168.150.134 /desktop/Capital/positionsFlow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `market_positions_flow` WHERE `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:46+08:00 ] 192.168.150.134 /desktop/Capital/positionsFlow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `market_positions_flow` WHERE `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:49+08:00 ] 192.168.150.134 /desktop/Capital/historyPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `market_history_price` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:51+08:00 ] 192.168.150.134 /desktop/Capital/historyDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_history_detail` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `market_history_detail` WHERE `uid` = 22600007 AND ( `time` >= '' AND `time` <= ''  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:21:52+08:00 ] 192.168.150.134 /desktop/Capital/todayBargain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0250s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+SQL: SELECT * FROM `market_today_bargain` WHERE `uid` = 22600007 AND ( `time` >= 1443024000 AND `time` <= 1443110400  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T16:21:54+08:00 ] 192.168.150.134 /desktop/Capital/todayBargain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0180s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+SQL: SELECT * FROM `market_today_bargain` WHERE `uid` = 22600007 AND ( `time` >= 1443024000 AND `time` <= 1443110400  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T16:21:58+08:00 ] 192.168.150.134 /desktop/Capital/todayPrice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0220s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 226 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 227 行.
+SQL: SELECT * FROM `market_today_price` WHERE ( `time` >= 1443024000 AND `time` <= 1443110400  ) AND `uid` = 22600007 ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T16:21:59+08:00 ] 192.168.150.134 /desktop/Capital/todayBargain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.0110s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+SQL: SELECT * FROM `market_today_bargain` WHERE `uid` = 22600007 AND ( `time` >= 1443024000 AND `time` <= 1443110400  ) ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-09-24T16:22:00+08:00 ] 192.168.150.134 /desktop/Capital/todayBargain
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `market_today_bargain` [ RunTime:0.5440s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 259 行.
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CapitalController.class.php 第 260 行.
+SQL: SELECT * FROM `market_today_bargain` WHERE `uid` = 22600007 AND ( `time` >= 1443024000 AND `time` <= 1443110400  ) ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-09-24T16:22:02+08:00 ] 192.168.150.134 /desktop/addMargin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:AddMargin
+

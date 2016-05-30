@@ -1,0 +1,96 @@
+[ 2015-07-27T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overnight
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `freeze_uccupy` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=57 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1437941400') [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610057','延期费','1437941400','-8.691','91743.253','22610050') [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='91743.253',`total_profit_loss`='-8256.747',`usable_margin`='-8.691' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-27T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overTime
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uccupy` IS NULL  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `uccupy` IS NULL LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-27T11:51:05+08:00 ] 192.168.150.132 /index.php/Desktop/Index/userCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_user_capital` WHERE `uid` = 22600026 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_user_capital` (`uid`) VALUES ('22600026') [ RunTime:0.0000s ]
+
+[ 2015-07-27T12:28:57+08:00 ] 192.168.150.132 /index.php/Desktop/Index/userCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_user_capital` WHERE `uid` = 22600027 LIMIT 1   [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_user_capital` (`uid`) VALUES ('22600027') [ RunTime:0.0000s ]
+
+[ 2015-07-27T13:49:21+08:00 ] 192.168.150.132 /index.php/Desktop/Index/userCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE `uid` = 22600028 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_user_capital` (`uid`) VALUES ('22600028') [ RunTime:0.0010s ]
+
+[ 2015-07-27T13:50:05+08:00 ] 192.168.150.132 /index.php/Desktop/Index/userCreate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `market_user_capital` WHERE `uid` = 22600029 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_user_capital` (`uid`) VALUES ('22600029') [ RunTime:0.0000s ]
+
+[ 2015-07-27T18:15:21+08:00 ] 192.168.150.77 /Desktop/Auth/updateInfo/ckUid/22600007/token/6e81e5b049f804ef8c92fb316482e882
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Auth
+

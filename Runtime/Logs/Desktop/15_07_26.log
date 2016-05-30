@@ -1,0 +1,97 @@
+[ 2015-07-26T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overnight
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `market_positions_flow` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `freeze_uccupy` IS NULL ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `freeze_uccupy` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant n - assumed 'n' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant j - assumed 'j' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+NOTIC: [8] Use of undefined constant Y - assumed 'Y' D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 37 行.
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `market_flow_number` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `market_flow_number` WHERE `uid` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `market_flow_number` SET `uid`='22600004' WHERE ( positions_number=56 ) [ RunTime:0.0000s ]
+SQL: INSERT INTO `market_flow_number` (`time`) VALUES ('1437855000') [ RunTime:0.0010s ]
+SQL: INSERT INTO `market_positions_flow` (`uid`,`flow_number`,`flow_name`,`flow_time`,`chang_capital`,`flow_capital`,`positions_number`) VALUES ('22600004','22610056','延期费','1437855000','-8.691','91751.944','22610050') [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `total_capital`='91751.944',`total_profit_loss`='-8248.056',`usable_margin`='777.628' WHERE ( uid=22600004 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-07-26T04:10:00+08:00 ] 192.168.150.132 /Desktop/Common/overTime
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `market_user_capital` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `market_positions_detail` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_today_price` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `market_history_price` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `market_positions_detail` WHERE `uccupy` IS NULL  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `market_positions_detail` WHERE `uccupy` IS NULL LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: $positions_price D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 96 行.
+SQL: UPDATE `market_today_price` SET `status`='超时' WHERE ( positions_number=22610029 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_history_price` SET `status`='超时' WHERE ( positions_number=22610029 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610029 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `usable_margin`='777.628',`freeze_margin`='87497.916' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: $positions_price D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 96 行.
+NOTIC: [8] Undefined offset: 1 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 98 行.
+SQL: UPDATE `market_today_price` SET `status`='超时' WHERE ( positions_number=22610030 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_history_price` SET `status`='超时' WHERE ( positions_number=22610030 ) [ RunTime:0.0010s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610030 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_user_capital` SET `usable_margin`='0',`freeze_margin`='0' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: $positions_price D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 96 行.
+NOTIC: [8] Undefined offset: 2 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 97 行.
+NOTIC: [8] Undefined offset: 2 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 98 行.
+SQL: UPDATE `market_today_price` SET `status`='超时' WHERE ( positions_number=22610009 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_history_price` SET `status`='超时' WHERE ( positions_number=22610009 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610009 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `usable_margin`='0',`freeze_margin`='0' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: $positions_price D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 96 行.
+NOTIC: [8] Undefined offset: 3 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 97 行.
+NOTIC: [8] Undefined offset: 3 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 98 行.
+SQL: UPDATE `market_today_price` SET `status`='超时' WHERE ( positions_number=22610026 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_history_price` SET `status`='超时' WHERE ( positions_number=22610026 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610026 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `usable_margin`='0',`freeze_margin`='0' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: $positions_price D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 96 行.
+NOTIC: [8] Undefined offset: 4 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 97 行.
+NOTIC: [8] Undefined offset: 4 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 98 行.
+SQL: UPDATE `market_today_price` SET `status`='超时' WHERE ( positions_number=22610034 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_history_price` SET `status`='超时' WHERE ( positions_number=22610034 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610034 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `usable_margin`='0',`freeze_margin`='0' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: $positions_price D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 96 行.
+NOTIC: [8] Undefined offset: 5 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 97 行.
+NOTIC: [8] Undefined offset: 5 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 98 行.
+SQL: UPDATE `market_today_price` SET `status`='超时' WHERE ( positions_number=22610035 ) [ RunTime:0.0000s ]
+SQL: UPDATE `market_history_price` SET `status`='超时' WHERE ( positions_number=22610035 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610035 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `usable_margin`='0',`freeze_margin`='0' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `market_user_capital` WHERE ( uid=22600004 )  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: $positions_price D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 96 行.
+NOTIC: [8] Undefined offset: 6 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 97 行.
+NOTIC: [8] Undefined offset: 6 D:\webroot\market\Application\Desktop\Controller\CommonController.class.php 第 98 行.
+SQL: UPDATE `market_today_price` SET `status`='超时' WHERE ( positions_number=22610048 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_history_price` SET `status`='超时' WHERE ( positions_number=22610048 ) [ RunTime:0.0000s ]
+SQL: DELETE FROM `market_positions_detail` WHERE ( positions_number=22610048 ) [ RunTime:0.0010s ]
+SQL: UPDATE `market_user_capital` SET `usable_margin`='0',`freeze_margin`='0' WHERE ( uid=22600004 ) [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

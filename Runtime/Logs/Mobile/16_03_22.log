@@ -1,0 +1,12 @@
+[ 2016-03-22T17:36:42+08:00 ] ::1 /market/index.php/Mobile/Index/create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Illegal string offset 'ckUid' D:\xampp\htdocs\market\Application\Mobile\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\market\Application\Mobile\Controller\IndexController.class.php 第 12 行.
+NOTIC: [2] Illegal string offset 'token' D:\xampp\htdocs\market\Application\Mobile\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Uninitialized string offset: 0 D:\xampp\htdocs\market\Application\Mobile\Controller\IndexController.class.php 第 13 行.
+

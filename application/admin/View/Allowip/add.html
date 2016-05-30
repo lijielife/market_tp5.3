@@ -1,0 +1,70 @@
+<extend name="Public:base" />
+<block name="main">
+    <div class="main-content">
+    <div class="breadcrumbs" id="breadcrumbs">
+        <script type="text/javascript">
+            try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+        </script>
+
+        <ul class="breadcrumb">
+            <li>
+                <i class="icon-home home-icon"></i>
+                首页
+            </li>
+
+            <li>
+                允许IP添加
+            </li>
+        </ul><!-- .breadcrumb -->
+
+        <div class="nav-search" id="nav-search" style="top: 3px;">
+            <a href="<{:U('Allowip/index')}>"><button class="btn btn-sm btn-primary no-border">返回列表</button></a>
+        </div><!-- #nav-search -->
+    </div>
+
+    <div class="page-content">
+        <div class="row">
+            <div class="col-xs-12">
+                <!-- PAGE CONTENT BEGINS -->
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="table-header">
+
+                        </div>
+                        <div class="table-responsive">
+                            <form action="__MODULE__/Allowip/add"  enctype="multipart/form-data" method="post">
+                                <table id="sample-table-2" class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th class="center" style="width: 200px;">栏目</th>
+                                        <th>详情</th>
+                                    </tr>
+                                    </thead>
+
+                                    <tbody style="font-family:'Microsoft YaHei';">
+                                    <tr>
+                                        <td class="center"><label style="height: 15px;">允许ip</label></td>
+                                        <td><input name="ip" type="text" class="col-xs-10 col-sm-3"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="center"></td>
+                                        <td>
+                                            <button style="float:right;margin-right:5%;height: 30px;width: 55px;" class="btn btn-app btn-grey btn-xs radius-4"><i style="font-size:16px;width:35px;text-align: left;padding-left: 5px;margin-top: -5px;" class="icon-save bigger-160">保存</i></button>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.page-content -->
+</div><!-- /.main-content -->
+</block>
+
+
+

@@ -1,0 +1,69 @@
+<div class="sidebar" id="sidebar">
+<script type="text/javascript">
+    try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+</script>
+
+<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+    <div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+        <button class="btn btn-success">
+            <i class="icon-signal"></i>
+        </button>
+
+        <button class="btn btn-info">
+            <i class="icon-pencil"></i>
+        </button>
+
+        <button class="btn btn-warning">
+            <i class="icon-group"></i>
+        </button>
+
+        <button class="btn btn-danger">
+            <i class="icon-cogs"></i>
+        </button>
+    </div>
+
+    <div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+        <span class="btn btn-success"></span>
+
+        <span class="btn btn-info"></span>
+
+        <span class="btn btn-warning"></span>
+
+        <span class="btn btn-danger"></span>
+    </div>
+</div><!-- #sidebar-shortcuts -->
+<ul class="nav nav-list">
+    <!--class="active"-->
+    <li class="<{$capital}>">
+        <a href="<{:U('Capital/index')}>" class="dropdown-toggle"><i class="icon-edit"></i><span class="menu-text"> 模拟资金</span></a>
+    </li>
+    <li class="<{$active}>">
+        <a href="<{:U('Active/index')}>" class="dropdown-toggle"><i class="icon-edit"></i><span class="menu-text"> 活跃用户</span></a>
+    </li>
+    <li class="<{$admin}>">
+        <a href="<{:U('Deal/index')}>" class="dropdown-toggle"><i class="icon-edit"></i><span class="menu-text"> 成交记录</span></a>
+    </li>
+    <li class="<{$admin}>">
+        <a href="<{:U('Flow/index')}>" class="dropdown-toggle"><i class="icon-edit"></i><span class="menu-text"> 资金流水</span></a>
+    </li>
+    <li class="<{$admin}>">
+        <a href="<{:U('Admin/index')}>" class="dropdown-toggle"><i class="icon-edit"></i><span class="menu-text"> 管理员</span></a>
+    </li>
+    <li class="<{$allowip}>">
+        <a href="<{:U('Allowip/index')}>" class="dropdown-toggle"><i class="icon-edit"></i><span class="menu-text"> 允许操作ip</span></a>
+    </li>
+
+</ul><!-- /.nav-list -->
+
+<div class="sidebar-collapse" id="sidebar-collapse" onclick="adb();">
+    <i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+</div>
+
+<script type="text/javascript">
+    try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+</script>
+</div>
+
+
+
+

@@ -1,0 +1,346 @@
+[ 2016-03-22T16:50:35+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.033001s] [吞吐率：30.30req/s] [内存消耗：566.91kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+
+[ 2016-03-22T16:50:38+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.020001s] [吞吐率：50.00req/s] [内存消耗：566.83kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+
+[ 2016-03-22T16:53:05+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.026002s] [吞吐率：38.46req/s] [内存消耗：567.34kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:53:06+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.013001s] [吞吐率：76.92req/s] [内存消耗：567.34kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:53:06+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.009000s] [吞吐率：111.11req/s] [内存消耗：567.34kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:53:06+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.011001s] [吞吐率：90.90req/s] [内存消耗：567.34kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:53:06+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.014001s] [吞吐率：71.42req/s] [内存消耗：567.34kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:56:25+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.015001s] [吞吐率：66.66req/s] [内存消耗：567.21kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:56:52+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.016001s] [吞吐率：62.50req/s] [内存消耗：567.21kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:56:54+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.009001s] [吞吐率：111.10req/s] [内存消耗：567.34kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T16:56:55+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.010000s] [吞吐率：100.00req/s] [内存消耗：567.34kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
+[ 2016-03-22T17:03:43+08:00 ] ::1 ::1 GET /tp52/public/index.php/test/test/log_test
+[log] localhost/tp52/public/index.php/test/test/log_test [运行时间：0.015001s] [吞吐率：66.66req/s] [内存消耗：568.02kb] [文件加载：25]
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\thinkphp\convention.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/auto.php
+[info] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'test',
+    1 => 'test',
+    2 => 'log_test',
+  ),
+)
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\config.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\database.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\route.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\validate.php
+[info] [ CONFIG ] D:\xampp\htdocs\tp52\public/../application/test\auto.php
+[info] [ RUN ] D:\xampp\htdocs\tp52\application\test\controller\Test.php[ array (
+) ]
+[info] [ LOG ] INIT File: array (
+  'path' => 'D:\\xampp\\htdocs\\tp52\\public/../application/logs/',
+)
+[log] 日志谢谢
+
